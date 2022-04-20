@@ -1,14 +1,22 @@
 import React from 'react';
 import './App.css';
+// import MyComponent from './MyComponent';
+// import Counter from './Counter';
+// import Say from './Say';
+import EventPractice from './EventPractice';
 
-function App() {
-
-  const name = "리액트";
+const App = () => {
   return (
-    <div className="react">
-      {name}
-    </div>
+    // <MyComponent name='종기가 난 작은 공작새' favoriteNumber={7}>
+    //   리액트
+    // </MyComponent>
+
+    // <Counter></Counter>
+
+    // <Say />
+
+    <EventPractice />
   );
-}
+};
 
 export default App;
