@@ -3,7 +3,8 @@ import './App.css';
 // import MyComponent from './MyComponent';
 // import Counter from './Counter';
 // import Say from './Say';
-import EventPractice from './EventPractice';
+// import EventPractice from './EventPractice';
+import ValidationSample from './ValidationSample';
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
 
     // <Say />
 
-    <EventPractice />
+    // <EventPractice />
+
+    <ValidationSample />
   );
 };
 
