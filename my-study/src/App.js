@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import IterationSample from './IterationSample';
+// import IterationSample from './IterationSample';
+import LifeCycleSample from './LifeCycleSample';
 // import ScrollBox from './ScrollBox';
 // import MyComponent from './MyComponent';
 // import Counter from './Counter';
@@ -26,7 +27,9 @@ class App extends Component {
       //   </button>
       // </div>
 
-      <IterationSample />
+      // <IterationSample />
+
+      <LifeCycleSample />
     );
   }
 }
